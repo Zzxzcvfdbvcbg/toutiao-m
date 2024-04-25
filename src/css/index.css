@@ -137,5 +137,11 @@
   content: "\e613";
 }
 body {
-  background-color: orange;
+  background-color: #f5f7f9;
+}
+.page-nav-bar {
+  background-color: #3296fa !important;
+}
+.page-nav-bar .van-nav-bar__title {
+  color: white;
 }
