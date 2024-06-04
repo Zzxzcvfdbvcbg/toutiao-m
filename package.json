@@ -4,10 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "amfe-flexible": "^2.2.1",
@@ -45,10 +42,6 @@
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,ts,vue}": [
-      "eslint --fix"
-    ]
   }
+ 
 }
