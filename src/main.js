@@ -8,6 +8,8 @@ import Vant from 'vant'
 import 'vant/lib/index.css'
 // rem适配
 import 'amfe-flexible'
+import './utils/dayjs'
+
 // 注册
 Vue.use(Vant);
 
